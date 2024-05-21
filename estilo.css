@@ -1,0 +1,88 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+body{
+    height: auto;
+    width: 80%;
+    border: 5px solid red;
+    background-image: url(img/4699c35679ba219cb6d7bb62b50d47e2e5b3129bv2_hq.jpg);
+}
+header{
+    height: auto;
+    width: 90%;
+    border: 5px solid red;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(img/fe75755b44e58e8bf82e71179ea1c434.jpg);
+    text-decoration:none;
+    color: aliceblue;
+    
+
+}
+#menu ul{
+    display: flex;
+    padding: 5px;
+}
+#menu li{
+    list-style-type: none;
+    margin: 5px;
+}
+#menu a{
+    text-decoration: none;
+    color:grey;
+    padding:10px;
+}
+#menu a:hover{
+    background-color: gold;
+    color:red;
+}
+#logo{
+    border: solid red;
+    height: auto;
+    padding: 1px;
+    margin: 2px;
+}
+main{
+    height: auto;
+    border: 5px solid red;
+    display: flex;
+    text-align: center;
+    
+}
+aside{
+    height: auto;
+    border: 5px solid orange;
+    width: 33%;
+    margin: 3px;
+    padding: 3px;
+
+}
+section{
+    height: auto;
+    border: 5px solid black;
+    width: 33%;
+    margin: 3px;
+    padding: 3px;
+
+}
+contenedor{
+    height: auto;
+    border: 5px solid black;
+    width: 33%;
+    margin: 3px;
+    padding: 3px;
+}
+nav{
+    margin: 3px;
+    padding: 3px;
+    border: 5px solid black;
+    text-align: center;
+}
+footer{
+    margin: 3px;
+    padding: 3px;
+    border: 5px solid black;
+    display: flex;
+}
+
